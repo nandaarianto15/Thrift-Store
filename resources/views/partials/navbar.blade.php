@@ -18,7 +18,6 @@
 
     {{-- logo in navbar --}}
     <div style="position: absolute; left: 1220px; top: 15px;">
-        {{-- <a href=""><img src="{{ asset("img/fav.png") }}" alt="" style="position: absolute; left: -100px; top: 14px;"></a> --}}
         <a href="{{ url('check-out') }}"><img src="{{ asset("img/cart.png") }}" alt="" style="position: absolute; left: -80px; top: 14px;"></a>
         <a href="{{ url('profile') }}"><img src="{{ asset("img/user.png") }}" alt="" style="position: absolute; left: -5px; top: 13px;"></a>
     </div>
